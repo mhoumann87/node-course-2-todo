@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "GIT"
+    "url": "https://github.com/mhoumann87/node-course-2-todo"
   },
   "keywords": [
     "mongo",
