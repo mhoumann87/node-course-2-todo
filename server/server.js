@@ -22,6 +22,15 @@ todo.save().then((doc) => {
 
 });//app.post('/todos')
 
+app.get('/todos', (req, res) => {
+  Todo.find().then((todos) => {
+    res.send({todos});
+  }, (e) =>{
+    res.status(400).send(e);
+  });
+
+});//app.get(/todos)
+
 app.listen(3000, () => {
   console.log('Server started on port 3000');
 });
