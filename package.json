@@ -4,6 +4,7 @@
   "description": "A simple todo app, mede for the nodedev course on udemy",
   "main": "server.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec \"npm test\""
   },
@@ -16,6 +17,9 @@
     "nodejs",
     "express"
   ],
+  "engines": {
+    "node": "8.9.1"
+  },
   "author": "Michael Houmann",
   "license": "MIT",
   "dependencies": {
