@@ -1,3 +1,4 @@
-# Reposatory for course on Udemy
-Todo webapp for Udemy complete node course
+# Repository for course on Udemy
+
+The course is about creating and testing web apps in Node.js
 
