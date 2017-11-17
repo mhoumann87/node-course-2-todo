@@ -133,3 +133,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+server/config/config.json
